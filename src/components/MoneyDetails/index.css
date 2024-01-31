@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.balance {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  background-color: #ecfccb;
+  border-radius: 10px;
+  border: solid;
+  border-color: #84cc16;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.income {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  background-color: #cffafe;
+  border-radius: 10px;
+  border: solid;
+  border-color: #06b6d4;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.expenses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  background-color: #ede9fe;
+  border-radius: 10px;
+  border: solid;
+  border-color: #7c3aed;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  display: flex;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

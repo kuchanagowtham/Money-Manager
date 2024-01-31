@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 10px;
+  list-style-type: none;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
